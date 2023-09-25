@@ -1,2 +1,62 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #181719;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+header > nav > div.logo{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 2px 5px;
+}
+
+header > nav > div.logo:hover{
+    font-weight: bolder;
+    transform: scale(1.1);
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 0 10px rgba(255, 254, 254, 0.5);
+    cursor: pointer;
+}
+
+header > nav > div.menu{
+    display: flex;
+    gap: 50px;
+}
+
+header > nav > div.menu > li{
+    list-style-type: none;
+    color: #FFFFFF;    
+}
+
+header > nav > div.menu > li:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+header > nav > div.menu > li::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px; /* Espessura do sublinhado */
+    bottom: 0;
+    left: 50%; /* Começa no centro */
+    background-color: #FFFFFF; /* Cor do sublinhado */
+    transition: width 0.3s ease; /* Adicionando uma transição suave */
+}
+
+header > nav > div.menu > li:hover::before{
+    width: 100%;
+    left: 0; /* A partir da esquerda para as bordas */
+}
