@@ -64,8 +64,9 @@ header > nav > div.menu > li{
 main{
     display: flex;
     flex-flow: row wrap;
-    height: calc(100vh - 100px);
+    justify-content: space-between;
     padding: 0px 50px;
+    gap: 20px;
 }
 
 main > div.content{
@@ -111,22 +112,35 @@ main > div.content > a{
 
 main > div.img{
     flex-grow: 1;
-    flex-basis: 400px;
-    display: flex;
+    flex-basis: 450px;
+    max-height: calc(100vh - 150px);
+    position: relative;
 }
 
 main > div.img > img{
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
 }
 
-@media (max-width:799px) {
-    main{
-        width:80%;
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 50px 0px;
-        height: 100%;   
-        gap: 50px;
+main > div.img > div.post{
+    position: absolute;
+    width: 60%;
+    height: 150px;
+    background-color: #181719;
+    bottom: 0px;
+    right: 5%;
+    transform: translate(0px, 50%);
+}
+
+@media (max-width:600px) {
+    
+    main > div.content{
+        flex-basis: 150;
+    }
+    
+    main > div.img{
+        flex-basis: 150;
+        max-height: 50vh;
     }
 }
