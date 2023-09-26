@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@400;700&family=Poppins&display=swap');
 
 *{
     padding: 0px;
@@ -40,12 +40,12 @@ header > nav > div.menu > li{
     color: #FFFFFF;    
 }
 
-header > nav > div.menu > li:hover{
+.underline-hover:hover{
     transform: scale(1.15);
     cursor: pointer;
 }
 
-header > nav > div.menu > li::before{
+.underline-hover::before{
     content: "";
     position: absolute;
     width: 0;
@@ -56,7 +56,77 @@ header > nav > div.menu > li::before{
     transition: width 0.3s ease; /* Adicionando uma transição suave */
 }
 
-header > nav > div.menu > li:hover::before{
+.underline-hover:hover::before{
     width: 100%;
     left: 0; /* A partir da esquerda para as bordas */
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    height: calc(100vh - 100px);
+    padding: 0px 50px;
+}
+
+main > div.content{
+    flex-grow: 0.5;
+    flex-basis: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    color: #FFFFFF;
+}
+
+main > div.content > h1{
+    font-family: 'Lora', serif;
+    font-size: max(min(4.7vw, 50px), 39px);
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+main > div.content > p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 20px;
+}
+
+main > div.content > a{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: fit-content;
+}
+
+main > div.img{
+    flex-grow: 1;
+    flex-basis: 400px;
+    display: flex;
+}
+
+main > div.img > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width:799px) {
+    main{
+        width:80%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 50px 0px;
+        height: 100%;   
+        gap: 50px;
+    }
 }
