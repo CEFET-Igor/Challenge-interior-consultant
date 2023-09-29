@@ -125,12 +125,52 @@ main > div.img > img{
 
 main > div.img > div.post{
     position: absolute;
-    width: 60%;
-    height: 150px;
+    max-width: 80%;
     background-color: #181719;
     bottom: 0px;
-    right: 5%;
+    right: 8%;
     transform: translate(0px, 50%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 0 10px rgba(255, 254, 254, 0.5);
+
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2%;
+    gap: 5px;
+}
+
+main > div.img > div.post > div.info-profile{
+    display: flex;
+    max-height: 50%;
+    gap: 10px;
+    color: #FFFFFF;
+}
+
+.gray{
+    color: #828282;
+}
+
+main > div.img > div.post > div.info-profile > div.profile-photo > img{
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+main > div.img > div.post > div.info-profile > div.profile-description{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly; 
+    font-size: max(min(3vw, 16px), 8px);
+}
+
+main > div.img > div.post > div.content-post{
+    font-family: Lora;
+    font-size: max(min(3vw, 20px), 8px);
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #FFFFFF;
 }
 
 @media (max-width:600px) {
@@ -142,5 +182,26 @@ main > div.img > div.post{
     main > div.img{
         flex-basis: 150;
         max-height: 50vh;
+    }
+
+    main > div.img > div.post > div.info-profile > div.profile-photo > img{
+        max-width: 40px;
+        max-height: 40px;
+    }
+}
+
+@media (max-width:400px) {
+
+    main{
+        padding: 0px 5%;
+    }
+
+    main > div.img > div.post > div.info-profile{
+        gap: 5px;
+    }
+
+    main > div.img > div.post > div.info-profile > div.profile-photo > img{
+        max-width: 30px;
+        max-height: 30px;
     }
 }
