@@ -17,6 +17,7 @@ header > nav{
 }
 
 header > nav > div.logo{
+    
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     padding: 2px 5px;
@@ -37,7 +38,14 @@ header > nav > div.menu{
 
 header > nav > div.menu > li{
     list-style-type: none;
-    color: #FFFFFF;    
+    color: #FFFFFF;   
+    
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .underline-hover:hover{
@@ -113,7 +121,7 @@ main > div.content > a{
 main > div.img{
     flex-grow: 1;
     flex-basis: 450px;
-    max-height: calc(100vh - 150px);
+    max-height: calc(90vh - 150px);
     position: relative;
 }
 
