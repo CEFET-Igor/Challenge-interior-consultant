@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/CEFET-Igor/Challenge-interior-consultant">
       Solution
     </a>
     <span> | </span>
