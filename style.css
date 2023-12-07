@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@400;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
 
 *{
     padding: 0px;
@@ -9,34 +9,47 @@
 body{
     background-color: #181719;
 }
+header{
+    max-width: 1440px;
+}
 
 header > nav{
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 50px;
 }
 
-header > nav > div.logo{
-    
+header > nav > div.logo{   
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
+
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
     padding: 2px 5px;
 }
 
 header > nav > div.logo:hover{
     font-weight: bolder;
     transform: scale(1.1);
-    border: 2px solid #FFFFFF;
     box-shadow: 0 0 10px rgba(255, 254, 254, 0.5);
     cursor: pointer;
 }
 
-header > nav > div.menu{
+header > nav > ul.menu{
     display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
     gap: 50px;
 }
 
-header > nav > div.menu > li{
+header > nav > ul.menu > li{
     list-style-type: none;
     color: #FFFFFF;   
     
