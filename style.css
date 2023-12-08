@@ -195,7 +195,27 @@ main > div.img > div.post > div.content-post{
     color: #FFFFFF;
 }
 
-@media (max-width:600px) {
+footer{
+    margin-top: 100px;;
+}
+footer > p{
+    color: #A9A9A9;
+    padding: 20px 0px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer a{
+    color: #A9A9A9;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+@media (max-width:650px) {
     
     main > div.content{
         flex-basis: 150;
