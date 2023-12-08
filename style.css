@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -11,6 +10,7 @@ body{
 }
 header{
     max-width: 1440px;
+    margin: 0px auto;
 }
 
 header > nav{
@@ -58,7 +58,6 @@ header > nav > ul.menu > li{
     font-weight: 500;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .underline-hover:hover{
@@ -85,12 +84,14 @@ header > nav > ul.menu > li{
 main{
     display: flex;
     flex-flow: row wrap;
+    max-width: 1500px;
+    margin: 0px auto;
     justify-content: space-between;
     padding: 0px 50px;
     gap: 20px;
 }
 
-main > div.content{
+main > section.content{
     flex-grow: 0.5;
     flex-basis: 300px;
     display: flex;
@@ -101,7 +102,7 @@ main > div.content{
     color: #FFFFFF;
 }
 
-main > div.content > h1{
+main > section.content > h1{
     font-family: 'Lora', serif;
     font-size: max(min(4.7vw, 50px), 39px);
     font-weight: 500;
@@ -109,7 +110,7 @@ main > div.content > h1{
     text-align: left;
 }
 
-main > div.content > p{
+main > section.content > p{
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
@@ -119,7 +120,7 @@ main > div.content > p{
     padding-right: 20px;
 }
 
-main > div.content > a{
+main > section.content > a{
     font-family: Montserrat;
     font-size: 15px;
     font-weight: 700;
@@ -208,6 +209,9 @@ main > div.img > div.post > div.content-post{
     main > div.img > div.post > div.info-profile > div.profile-photo > img{
         max-width: 40px;
         max-height: 40px;
+    }
+    header > nav > ul.menu{
+        display: none;
     }
 }
 
