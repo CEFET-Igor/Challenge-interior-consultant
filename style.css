@@ -311,10 +311,12 @@ footer a{
     header > nav > input:checked~ div.menu-hamburguer > div.linha3 {
         transform: rotate(-45deg);
     }
-
 }
 
 @media (max-width:400px) {
+    header > nav {
+        padding: 20px 10%;
+    }
 
     main{
         padding: 0px 5%;
