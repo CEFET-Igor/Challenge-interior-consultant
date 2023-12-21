@@ -41,18 +41,23 @@
 <a name="Descrição"></a>
 ### Descrição:
 
-Neste projeto, a missão é criar uma homepage para um consultório de interiores. Foi recebido um modelo de página que precisa ser transformado em uma página responsiva. Além disso, teremos seções interativas para brincar com transições CSS e até mesmo um menu hamburguer para praticar um pouco de JavaScript.
+Desenvolvi esta homepage como parte de um desafio proposto pelo Devchallenges.io, focado em aprimorar minhas habilidades em HTML e CSS. O projeto consiste em transformar um modelo de página em uma homepage responsiva para um consultório de interiores, incorporando elementos interativos e garantindo a responsividade de todas as imagens do site.
 
 <a name="Objetivo"></a>
 ### Objetivo:
 
 O objetivo principal deste projeto é aprimorar  as habilidades em HTML e CSS, desta vez explorando habilidades como:
 
-- Explorar transições CSS para adicionar interatividade ao site.
-- Implementar um menu hamburguer para aprimorar suas habilidades em JavaScript.
-- Garantir a responsividade de todas as imagens do site, proporcionando uma experiência visual perfeita em todos os dispositivos.
+- **Transições CSS Interativas:** Explorei transições CSS para adicionar um toque de interatividade à página, proporcionando uma experiência mais envolvente aos visitantes.
+- **Responsividade de Imagens:** Garanti que todas as imagens da homepage fossem responsivas, assegurando uma boa experiência visual em dispositivos de diferentes tamanhos.
+
+![Desktop](https://github.com/CEFET-Igor/Challenge-interior-consultant/assets/113212275/b72c1168-bb81-4bd6-b58a-af6cc44ec4a4)
+![mobile-version1](https://github.com/CEFET-Igor/Challenge-interior-consultant/assets/113212275/70285b4f-d12d-466d-bce1-0583dd5b1e9e)
+![mobile-version2](https://github.com/CEFET-Igor/Challenge-interior-consultant/assets/113212275/076e72af-fcfa-4866-a8e6-d20e0761db57)
+
 
 <a name="Built With"></a>
+
 ### Built With
 
 - ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
