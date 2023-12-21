@@ -51,9 +51,11 @@ O objetivo principal deste projeto é aprimorar  as habilidades em HTML e CSS, d
 - **Transições CSS Interativas:** Explorei transições CSS para adicionar um toque de interatividade à página, proporcionando uma experiência mais envolvente aos visitantes.
 - **Responsividade de Imagens:** Garanti que todas as imagens da homepage fossem responsivas, assegurando uma boa experiência visual em dispositivos de diferentes tamanhos.
 
-Desktop-Version
+### Desktop-Version
 ![Desktop](https://github.com/CEFET-Igor/Challenge-interior-consultant/assets/113212275/b72c1168-bb81-4bd6-b58a-af6cc44ec4a4)
-Mobile-Version
+
+### Mobile-Version
+
 ![mobile-version1](https://github.com/CEFET-Igor/Challenge-interior-consultant/assets/113212275/70285b4f-d12d-466d-bce1-0583dd5b1e9e)
 ![mobile-version2](https://github.com/CEFET-Igor/Challenge-interior-consultant/assets/113212275/076e72af-fcfa-4866-a8e6-d20e0761db57)
 
